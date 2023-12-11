@@ -1,0 +1,18 @@
+.abouts {
+    max-width: 1000px;
+    max-height: 00;
+    margin: 0 auto;
+    padding: 50px;
+    
+    color: #ffffff;
+    text-align: center;
+    }
+    .about-para {
+        border: 2px solid powderblue;
+      padding: 120px;
+    
+      text-size-adjust: 20px;
+      font-size: 25px;
+      
+    }
+    
