@@ -67,17 +67,23 @@ section h3
 
 .projects
 {
-	background: #ffff00;
+	background-image: url('https://i.makeagif.com/media/6-17-2017/BKjpdj.gif');
+	background-size: cover;
+	background-position: center;
 }
 
 .resume
 {
-	background: #008000;
+	background-image: url('https://i.makeagif.com/media/6-17-2017/BKjpdj.gif');
+	background-size: cover;
+	background-position: center;
 }
 
-.contacts
+.contact
 {
-	background: #a882ee;
+	background-image: url('https://i.makeagif.com/media/6-17-2017/BKjpdj.gif');
+	background-size: cover;
+	background-position: center;
 }
 
 ::-webkit-scrollbar
