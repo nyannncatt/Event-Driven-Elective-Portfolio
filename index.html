@@ -1,119 +1,126 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Elective Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="./meow/css/hescobari.css">
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-		<script type="text/javascript" src='./scroll.js'></script>
-		<script src="./newtab.js"></script>
 
-	</head>
-	<body>
-		<nav>
-			<div>
-				<a href='#home'><span class='icon-home'></span></a>
-				<a href='#about'><span class='icon-dot-circled'></span></a>
-				<a href='#projects'><span class='icon-database'></span></a>
-				<a href='#resume'><span class='icon-doc-text'></span></a>
-				<a href='#contact'><span class='icon-user'></span></a>
-			</div>
-		</nav>
+<head>
+	<title>Elective Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./meow/css/hescobari.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<script type="text/javascript" src='./scroll.js'></script>
+	<script src="./newtab.js"></script>
+
+</head>
+
+<body>
+	<nav>
+		<div>
+			<a href='#home'><span class='icon-home'></span></a>
+			<a href='#about'><span class='icon-dot-circled'></span></a>
+			<a href='#projects'><span class='icon-database'></span></a>
+			<a href='#resume'><span class='icon-doc-text'></span></a>
+			<a href='#contact'><span class='icon-user'></span></a>
+		</div>
+	</nav>
+	<style>
+		@keyframes animateHeader {
+			0% {
+				letter-spacing: 3.8px;
+				text-shadow: 4px 4px 3px rgb(0, 0, 0);
+				background-position: 0% 50%;
+			}
+
+			50% {
+				letter-spacing: 8px;
+				text-shadow: 8px 8px 6px rgb(0, 0, 0);
+				background-position: 100% 50%;
+			}
+
+			100% {
+				letter-spacing: 3.8px;
+				text-shadow: 4px 4px 3px rgb(0, 0, 0);
+				background-position: 0% 50%;
+			}
+		}
+
+		h3 {
+			background: linear-gradient(84deg, rgba(0, 0, 0, 0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0, 0, 0, 0) 100%);
+			background: linear-gradient(84deg, rgba(0, 0, 0, 0) 0%, rgb(175 175 167 / 49%) 51%, rgba(0, 0, 0, 0) 100%);
+			text-align: center;
+			font-family: "Arial Black", Gadget, sans-serif;
+			letter-spacing: 3.8px;
+			word-spacing: 0px;
+			color: rgb(38, 0, 255);
+			font-weight: 400;
+			text-decoration: none solid rgb(15, 42, 199);
+			text-shadow: 4px 4px 3px rgb(14, 53, 136);
+			font-style: italic;
+			font-variant: small-caps;
+			text-transform: lowercase;
+			transition: all ease-in-out .6s;
+			position: relative;
+			top: 50px;
+			animation: animateHeader 5s infinite;
+
+
+
+		}
+	</style>
+	</style>
+	<section class='home'>
+		<h3>home</h3>
+
 		<style>
-			@keyframes animateHeader {
-				0% {
-					letter-spacing: 3.8px;
-					text-shadow: 4px 4px 3px rgb(0, 0, 0);
-					background-position: 0% 50%;
-				}
-				50% {
-					letter-spacing: 8px;
-					text-shadow: 8px 8px 6px rgb(0, 0, 0);
-					background-position: 100% 50%;
-				}
-				100% {
-					letter-spacing: 3.8px;
-					text-shadow: 4px 4px 3px rgb(0, 0, 0);
-					background-position: 0% 50%;
+			.my-div-box {
+				width: 600px;
+				height: 300px;
+				background-color: #f0f0f0;
+				border: 1px solid #ccc;
+				padding: 20px;
+				margin: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				box-shadow: inset 20px 20px 20px #000;
+				transition: box-shadow 0.3s ease;
+				/* Adding a smooth transition effect */
+
+				/* Hover effect */
+				&:hover {
+					box-shadow: inset 50px 50px 50px #000;
 				}
 			}
-	
-			h3 {
-				background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0,0,0,0) 100%);
-				background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgb(175 175 167 / 49%) 51%, rgba(0,0,0,0) 100%);
-    text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
-    letter-spacing: 3.8px;
-    word-spacing: 0px;
-    color: rgb(38, 0, 255);
-    font-weight: 400;
-    text-decoration: none solid rgb(15, 42, 199);
-    text-shadow: 4px 4px 3px rgb(14, 53, 136);
-    font-style: italic;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    transition: all ease-in-out .6s;
-	position: relative;
-top: 50px;
-    animation: animateHeader 5s infinite;
 
+			.contact-box1 {
+				width: 600px;
+				height: 300px;
+				background-color: #f0f0f0;
 
+				border: 1px solid #ccc;
+				padding: 20px;
+				margin: auto;
+				position: absolute;
+				top: 450%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				box-shadow: inset 20px 20px 20px #000;
+				transition: box-shadow 0.3s ease;
+				/* Adding a smooth transition effect */
+			}
 
-        }
-    </style>
+			/* Hover effect for the first contact box */
+			.contact-box1:hover {
+				box-shadow: inset 50px 50px 50px #000;
+			}
 		</style>
-		<section class='home'>
-			<h3>home</h3>
-			
-			<style>
-				
-				.my-div-box {
-					width: 600px;
-  height: 300px; 
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  box-shadow: inset 20px 20px 20px #000;
-  transition: box-shadow 0.3s ease; /* Adding a smooth transition effect */
+		</head>
 
-  /* Hover effect */
-  &:hover {
-    box-shadow: inset 50px 50px 50px #000;
-  }
-}
-        .contact-box1 {
-			width: 600px;
-			height: 300px; 
-  background-color: #f0f0f0;
-
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: auto;
-  position: absolute;
-  top: 450%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  box-shadow: inset 20px 20px 20px #000;
-  transition: box-shadow 0.3s ease; /* Adding a smooth transition effect */
-        }
-
-        /* Hover effect for the first contact box */
-        .contact-box1:hover {
-            box-shadow: inset 50px 50px 50px #000;
-        }
-	</style>
-			</head>
-			<body>
-			  <div class="my-div-box">
-			<br>
-			<br>
+		<body>
+			<div class="my-div-box">
+				<br>
+				<br>
 				<p style="background:  linear-gradient(84deg, rgba(0,0,0,0) 0%, rgba(246, 255, 0, 0.486) 51%, rgba(0,0,0,0) 100%);
 			background: linear-gradient(84deg, rgba(0,0,0,0) 0%, rgb(175 175 167 / 49%) 51%, rgba(0,0,0,0) 100%);
 text-align: center;
@@ -129,54 +136,52 @@ text-decoration: none solid rgb(84, 85, 95);
 font-style: italic;
 font-variant: small-caps;
 text-transform: lowercase;
-transition: all ease-in-out .6s;">Hello and welcome to our portfolio! We're thrilled to share a glimpse of our work, passion, and dedication with you.
-</p>
-			  </div>
-			
-			</body>
-			<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321" 
-     style="width: 100px; /* Set the width */
+transition: all ease-in-out .6s;">Hello and welcome to our portfolio! We're thrilled to share a glimpse of our work,
+					passion, and dedication with you.
+				</p>
+			</div>
+
+		</body>
+		<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321"
+			style="width: 100px; /* Set the width */
             position: absolute;
             top: 300px; 
-            left: 700px;
+            left: 750px;
             transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */"
-     onmouseover="this.style.transform='scale(1.1)'" 
-     onmouseout="this.style.transform='scale(1)'"
-     alt="Image Description">
-	 <img 
-	 src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91" 
-	 style="width: 100px; /* Set the width */
+			onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"
+			alt="Image Description">
+		<img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91"
+			style="width: 100px; /* Set the width */
 			position: absolute;
 			top: 300px; 
 			left: 900px; 
-			transition: transform 0.3s ease-in-out;" 
-	 onmouseover="this.style.transform='scale(1.2)'" 
-	 onmouseout="this.style.transform='scale(1)'"
-   >
-			
-		</section>
-		<section class='about'>
-			<h3>about</h3>
-			<link rel="stylesheet" href="./css/about.css">
-			<div class="abouts">
-			
-			
-				<style>
+			transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+			onmouseout="this.style.transform='scale(1)'">
+
+	</section>
+	<section class='about'>
+		<h3>about</h3>
+		<link rel="stylesheet" href="./css/about.css">
+		<div class="abouts">
+
+
+			<style>
 				.img {
 					max-width: 10%;
 					height: auto;
 					border-radius: 50%;
-					 
+
 				}
 
 				.img2 {
 					max-width: 10000%;
 					height: auto;
-				
+
 				}
 			</style>
-				<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321" alt="avatar">
-				<p style="font-family: Arial, sans-serif;
+			<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321"
+				alt="avatar">
+			<p style="font-family: Arial, sans-serif;
         ;
 					color: #fff; /* Set to white */
 				
@@ -191,21 +196,25 @@ transition: all ease-in-out .6s;">Hello and welcome to our portfolio! We're thri
 					box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 					border-radius: 5px;
 				  ">
-       
-					
 
-	   Allow me to share a glimpse of who I am with you. I go by Ace Stephen Dave M. Amolat, a 20-year-old second-year student at Northern Bukidnon State College, major in Information Technology.My passion extends beyond academics, and I find fulfillment in actively participating in diverse Elective activities
+
+
+				Allow me to share a glimpse of who I am with you. I go by Ace Stephen Dave M. Amolat, a 20-year-old
+				second-year student at Northern Bukidnon State College, major in Information Technology.My passion
+				extends beyond academics, and I find fulfillment in actively participating in diverse Elective
+				activities
 				<br>
-</p>
-				<style>
-					img {
-						max-width: 10%;
-						height: auto;
-						border-radius: 50%; 
-					}
-				</style>
-					<img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91" alt="avatar">
-					<p style="font-family: Arial, sans-serif;
+			</p>
+			<style>
+				img {
+					max-width: 10%;
+					height: auto;
+					border-radius: 50%;
+				}
+			</style>
+			<img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91"
+				alt="avatar">
+			<p style="font-family: Arial, sans-serif;
         ;
 					color: #fff; /* Set to white */
 				
@@ -220,234 +229,216 @@ transition: all ease-in-out .6s;">Hello and welcome to our portfolio! We're thri
 					box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 					border-radius: 5px;
 				  ">
-						
-						It gives me great joy to introduce myself to you. I am Lovelaine Joy Tasic,  20 years old and currently a second-year student at Northern Bukidnon State College taking up a Bachelor of Information Technology. I am from Bohol but was raised here in the majestic province of Manolo Fortich.
-					</p>
-		</section>
-		<section class='projects'>
-			<h3>Our Projects</h3>
 
-<style>
+				It gives me great joy to introduce myself to you. I am Lovelaine Joy Tasic, 20 years old and currently a
+				second-year student at Northern Bukidnon State College taking up a Bachelor of Information Technology. I
+				am from Bohol but was raised here in the majestic province of Manolo Fortich.
+			</p>
+	</section>
+	<section class='projects'>
+		<h3>Our Projects</h3>
 
+		<style>
+			.container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				height: 80vh;
+				border-radius: 0;
+			}
 
+			.img1,
+			.img3 {
+				max-width: 100%;
+				max-height: 100%;
+				border: 2px solid #333;
+				border-radius: 20px;
+				transition: transform 0.3s;
+				margin: 10px;
+				/* Adjust margin as needed */
+			}
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        border-radius: 0;
-    }
+			.img1:hover,
+			.img3:hover {
+				transform: scale(1.1);
+			}
+		</style>
 
-    .img1,
-    .img3 {
-        max-width: 100%;
-        max-height: 100%;
-        border: 2px solid #333;
-        border-radius: 20px;
-        transition: transform 0.3s;
-        margin: 10px; /* Adjust margin as needed */
-    }
+		<div class="container">
+			<div class="image-container1">
+				<a href="https://github.com/nyannncatt/Elective" onclick="openrepo()"><img class="img1"
+						src="https://i.ibb.co/GvV9y5D/Screenshot-260.png" width="300" height="200"></a>
+				<a href="https://github.com/nyannncatt/hover-link-animation" onclick="openrepo2()"><img class="img1"
+						src="https://i.ibb.co/NT5YwSR/Screenshot-261.png" width="300" height="200"></a>
+				<a href="https://github.com/nyannncatt/Inventorysimple" onclick="openrepo3()"><img class="img1"
+						src="https://i.ibb.co/CVNsvbg/Screenshot-262.png" width="300" height="200"></a>
+			</div>
 
-    .img1:hover,
-    .img3:hover {
-        transform: scale(1.1);
-    }
-</style>
-
-<div class="container">
-    <div class="image-container1">
-        <a href="https://github.com/nyannncatt/Elective"onclick="openrepo()"><img class="img1" src="https://i.ibb.co/GvV9y5D/Screenshot-260.png" width="300" height="200"></a>
-        <a href="https://github.com/nyannncatt/hover-link-animation"onclick="openrepo2()"><img class="img1" src="https://i.ibb.co/NT5YwSR/Screenshot-261.png" width="300" height="200"></a>
-        <a href="https://github.com/nyannncatt/Inventorysimple"onclick="openrepo3()"><img class="img1" src="https://i.ibb.co/CVNsvbg/Screenshot-262.png" width="300" height="200"></a>
-    </div>
-
-    <div class="image-container3">
-        <a href="https://github.com/LOVELAINEJOYTASIC/spa-jquery"onclick="openrepo4()"><img class="img3" src="https://i.ibb.co/MSxbLMS/Screenshot-263.png" width="300" height="200"></a>
-        <a href="https://github.com/LOVELAINEJOYTASIC/Bouncing-Ball-Act"onclick="openrepo5()"><img class="img3" src="https://i.ibb.co/RSg4Ph3/Screenshot-264.png" width="300" height="200"></a>
-        <a href="https://github.com/LOVELAINEJOYTASIC/-My-Portfolio"onclick="openrepo6()"><img class="img3" src="https://i.ibb.co/kg3YZKc/Screenshot-265.png" width="300" height="200"></a>
-    </div>
-</div>
-
-
-
-
-
-	
-
-
-
-
-
-
-
-		
-		</section>
-		<section class='resume'>
-			<h3>Resume</h3>
-			<style>
-
-
-.image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        border-radius: 0;
-    }
-
-    .img2 {
-        max-width: 100%;
-        max-height: 100%;
-        border: 2px solid #333;
-        border-radius: 20px;
-		transition: transform 0.3s;
-    }
-
-	.img2:hover {
-		transform: scale(1.1); 
-	}
-</style>
-
-<div class="image-container">
-    <img class="img2" src="https://i.pinimg.com/736x/81/c3/77/81c377d20822125927b5af6e939e1b19.jpg" width="500" height="200">
-    <img class="img2" src="https://i.pinimg.com/736x/a4/0d/e1/a40de1a10e061444a0044285e08941cc.jpg" width="500" height="200">
-</div>
+			<div class="image-container3">
+				<a href="https://github.com/LOVELAINEJOYTASIC/spa-jquery" onclick="openrepo4()"><img class="img3"
+						src="https://i.ibb.co/MSxbLMS/Screenshot-263.png" width="300" height="200"></a>
+				<a href="https://github.com/LOVELAINEJOYTASIC/Bouncing-Ball-Act" onclick="openrepo5()"><img class="img3"
+						src="https://i.ibb.co/RSg4Ph3/Screenshot-264.png" width="300" height="200"></a>
+				<a href="https://github.com/LOVELAINEJOYTASIC/-My-Portfolio" onclick="openrepo6()"><img class="img3"
+						src="https://i.ibb.co/kg3YZKc/Screenshot-265.png" width="300" height="200"></a>
+			</div>
+		</div>
 
 
 
 
 
 
-		</section>
-	
-		<section class='contact'>
-			<h3>contact</h3>
-			<div class="contact-box1">
-				<h2>Contact Us</h2>
-				<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321" 
-     style="width: 100px; /* Set the width */
+
+
+
+
+
+
+
+
+	</section>
+	<section class='resume'>
+		<h3>Resume</h3>
+		<style>
+			.image-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				border-radius: 0;
+			}
+
+			.img2 {
+				max-width: 100%;
+				max-height: 100%;
+				border: 2px solid #333;
+				border-radius: 20px;
+				transition: transform 0.3s;
+			}
+
+			.img2:hover {
+				transform: scale(1.1);
+			}
+		</style>
+
+		<div class="image-container">
+			<img class="img2" src="https://i.pinimg.com/736x/81/c3/77/81c377d20822125927b5af6e939e1b19.jpg" width="500"
+				height="200">
+			<img class="img2" src="https://i.pinimg.com/736x/a4/0d/e1/a40de1a10e061444a0044285e08941cc.jpg" width="500"
+				height="200">
+		</div>
+
+
+
+
+
+
+	</section>
+
+	<section class='contact'>
+		<h3>contact</h3>
+		<div class="contact-box1">
+			<h2>Contact Us</h2>
+			<img src="https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/299285420_1378028649355465_9222668288109912557_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeE4wBK1EMrHyTT6KbWjEAj1HLs3I6M9xkgcuzcjoz3GSD4OCLI3fQMLWgZAGJEcJojuryR4zkn3xQh4xCgTE9aT&_nc_ohc=NvqaE5pXNG8AX8h7ohX&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfAiBGFM6JEaDRa13gjd2HmjUN0lK-WKc9lcHXyvWTKGMw&oe=657C6321"
+				style="width: 100px; /* Set the width */
             position: absolute;
             top: 100px; 
             left: 100px;
             transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */"
-     onmouseover="this.style.transform='scale(1.1)'" 
-     onmouseout="this.style.transform='scale(1)'"
-     alt="Image Description">
-	 <img 
-	 src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91" 
-	 style="width: 100px; /* Set the width */
+				onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"
+				alt="Image Description">
+			<img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/69566249_352180039003853_4221703232763723776_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGo04MtCsggfbTM2Zhsyy-_0IKmdRJeuybQgqZ1El67JnluHu-bv7RODSkwMvlM3MCUfJKkONnIwQptZyZGI2zk&_nc_ohc=zwEyTHmPJuYAX9CsfhN&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfCu-5D_9V3Bxs9172itiJ9N4SMJL3XZmIrZchmtGLdjww&oe=659ECC91"
+				style="width: 100px; /* Set the width */
 			position: absolute;
 			top: 200px; 
 			left: 100px; 
-			transition: transform 0.3s ease-in-out;" 
-	 onmouseover="this.style.transform='scale(1.2)'" 
-	 onmouseout="this.style.transform='scale(1)'"
-	 alt="Image Description">
+			transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'" alt="Image Description">
 
-	 <a href="https://www.facebook.com/EzLawliet" onclick="openfb()"
-	 
-	 style="width: 100px; /* Set the width */
+			<a href="https://www.facebook.com/EzLawliet" onclick="openfb()" style="width: 100px; /* Set the width */
 
         position: absolute;
         top: 100px; 
         left: 200px; 
-        transition: transform 0.3s ease-in-out;" 
-        onmouseover="this.style.transform='scale(1.2)'"
-        onmouseout="this.style.transform='scale(1)'" 
-		
->
-    <i class="fab fa-facebook" style="font-size: 30px;"></i>
-</a>
-<a href="https://github.com/nyannncatt" onclick="opengit()"
-style="width: 100px; /* Set the width */
+        transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-facebook" style="font-size: 30px;"></i>
+			</a>
+			<a href="https://github.com/nyannncatt" onclick="opengit()" style="width: 100px; /* Set the width */
 position: absolute;
 top: 100px; 
 left: 300px; 
-transition: transform 0.3s ease-in-out;" 
-onmouseover="this.style.transform='scale(1.2)'"
-onmouseout="this.style.transform='scale(1)'" 
->
-<i class="fab fa-github" style="font-size: 30px;"></i>
-</a>
-<a href="https://www.youtube.com/channel/UCDCwtfzgDeQruL0tCNLKdkw"  onclick="openyt()"
-style="width: 100px; /* Set the width */
+transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-github" style="font-size: 30px;"></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UCDCwtfzgDeQruL0tCNLKdkw" onclick="openyt()" style="width: 100px; /* Set the width */
 position: absolute;
 top: 100px; 
 left: 400px; 
-transition: transform 0.3s ease-in-out;" 
-onmouseover="this.style.transform='scale(1.2)'"
-onmouseout="this.style.transform='scale(1)'" 
->
-<i class="fab fa-youtube" style="font-size: 30px;"></i>
-</a>
+transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-youtube" style="font-size: 30px;"></i>
+			</a>
 
 
-<a href="https://www.facebook.com/lovelainejoy.tasic.3" onclick="openfb2()"
-style="width: 100px; /* Set the width */
+			<a href="https://www.facebook.com/lovelainejoy.tasic.3" onclick="openfb2()" style="width: 100px; /* Set the width */
         position: absolute;
         top: 200px; 
         left: 200px; 
-        transition: transform 0.3s ease-in-out;" 
-        onmouseover="this.style.transform='scale(1.2)'"
-        onmouseout="this.style.transform='scale(1)'" 
->
-    <i class="fab fa-facebook" style="font-size: 30px;"></i>
-</a>
-<a href="https://github.com/LOVELAINEJOYTASIC" onclick="opengit2()"
-style="width: 100px; /* Set the width */
+        transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-facebook" style="font-size: 30px;"></i>
+			</a>
+			<a href="https://github.com/LOVELAINEJOYTASIC" onclick="opengit2()" style="width: 100px; /* Set the width */
 position: absolute;
 top: 200px; 
 left: 300px; 
-transition: transform 0.3s ease-in-out;" 
-onmouseover="this.style.transform='scale(1.2)'"
-onmouseout="this.style.transform='scale(1)'" 
->
-<i class="fab fa-github" style="font-size: 30px;"></i>
-</a>
-<a href="https://www.youtube.com/@eljouy1743" onclick="openyt2()"
-style="width: 100px; /* Set the width */
+transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-github" style="font-size: 30px;"></i>
+			</a>
+			<a href="https://www.youtube.com/@eljouy1743" onclick="openyt2()" style="width: 100px; /* Set the width */
 position: absolute;
 top: 200px; 
 left: 400px; 
-transition: transform 0.3s ease-in-out;" 
-onmouseover="this.style.transform='scale(1.2)'"
-onmouseout="this.style.transform='scale(1)'" 
->
-<i class="fab fa-youtube" style="font-size: 30px;"></i>
-</a>
+transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.2)'"
+				onmouseout="this.style.transform='scale(1)'">
+				<i class="fab fa-youtube" style="font-size: 30px;"></i>
+			</a>
 
 
-   
-			</div>
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+		</div>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 
-<ul>
- 
-    
-</ul>
-			
-		</section>
+		<ul>
 
-		<script type="text/javascript">
-			window.onclick = (e) => 
-			{
-				e.preventDefault();
 
-				switch(e.target.tagName)
-				{
-					case 'A':
-						scrollTo(e.target.href.split('#')[1]);
+		</ul>
+
+	</section>
+
+	<script type="text/javascript">
+		window.onclick = (e) => {
+			e.preventDefault();
+
+			switch (e.target.tagName) {
+				case 'A':
+					scrollTo(e.target.href.split('#')[1]);
 					break;
 
-					case 'SPAN':
-						scrollTo(e.target.parentElement.href.split('#')[1]);
+				case 'SPAN':
+					scrollTo(e.target.parentElement.href.split('#')[1]);
 
-					default: break;
-				}
-			};
-		</script>
-	</body>
+				default: break;
+			}
+		};
+	</script>
+</body>
+
 </html>
