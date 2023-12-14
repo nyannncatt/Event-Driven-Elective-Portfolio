@@ -61,9 +61,12 @@ section h3
 
 .about
 {
-	background-image: url('https://img.freepik.com/free-photo/galaxy-night-panorama_23-2148895327.jpg?w=1380&t=st=1702521701~exp=1702522301~hmac=6a6937ef0215cd8db05b69028546e88367e1674aac039029de6e7ad158118434');
-
+	background-image: url('https://i.pinimg.com/originals/2f/25/be/2f25be9a2ecb44fc0a76c4bf709e7c2c.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+
 .projects
 {
 	background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -74,7 +77,10 @@ section h3
 
 .resume
 {
-	background-image: url('https://img.freepik.com/free-photo/galaxy-night-panorama_23-2148895327.jpg?w=1380&t=st=1702521701~exp=1702522301~hmac=6a6937ef0215cd8db05b69028546e88367e1674aac039029de6e7ad158118434');
+	background-image: url('https://i.pinimg.com/originals/2f/25/be/2f25be9a2ecb44fc0a76c4bf709e7c2c.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .contact
